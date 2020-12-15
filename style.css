@@ -1,0 +1,62 @@
+html{
+    background: linear-gradient(90deg, #575655, #7a7a86);
+    height: 100%;
+}
+
+h1{
+    margin-left: 42.3%;
+    font-size: 40px;
+    color: white;
+}
+
+#container{
+    height: 400px;
+    width: 375px;
+    background: linear-gradient(90deg, #444442, #1e1f1c);
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas: 
+    ". bill"
+    ". tip"
+    ". tamt"
+    ". total"
+    "btn btn";
+    margin: 0 auto;
+    border: 5px solid white;
+    padding: 60px;
+    font-size: 18px;
+}
+
+#bill{
+    grid-area: bill;
+}
+
+#tip{
+    grid-area: tip;
+}
+
+#tamt{
+    grid-area: tamt;
+}
+
+#total{
+    grid-area: total;
+}
+
+#btn{
+    grid-area: btn;
+    height: 35px;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to top, #e9e2e2, #6b6b6d );
+    font-size: 16px;
+}
+
+.ip{
+    height: 25px;
+    width: 250px;
+}
